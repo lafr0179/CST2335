@@ -2,5 +2,10 @@
 <resources>
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Bonjour!</string>
-    <string name="ButtonText">I\'m a button!</string>
+    <string name="ButtonText">Bouton!</string>
+    <string name="login_text">Identifiant: </string>
+    <string name="password_text">Mot de passe: </string>
+    <string name="Switch">Quest-ce que ca fait?</string>
+    <string name="RadioButton">Bouton de Radio</string>
+    <string name="Checkbox">Boite</string>
 </resources>
