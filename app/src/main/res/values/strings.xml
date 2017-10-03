@@ -7,4 +7,10 @@
     <string name="Switch">What does this do?</string>
     <string name="RadioButton">Radio Button</string>
     <string name="Checkbox">Check Box</string>
+    <string name="LoginButton">LOGIN</string>
+    <string name="LoginHint">login name</string>
+    <string name="dialog_message">Would you like to end this activity?</string>
+    <string name="dialog_title">Finished?</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">Cancel</string>
 </resources>

@@ -8,4 +8,10 @@
     <string name="Switch">Quest-ce que ca fait?</string>
     <string name="RadioButton">Bouton de Radio</string>
     <string name="Checkbox">Boite</string>
+    <string name="LoginButton">LOGIN</string>
+    <string name="LoginHint">nom du compte</string>
+    <string name="dialog_message">Est-ce que vous etes finit</string>
+    <string name="dialog_title">Finit?</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">Canceller</string>
 </resources>

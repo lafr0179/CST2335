@@ -4,29 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:rowCount="2"
     android:columnCount="2"
+    android:rowCount="2"
     tools:context="com.example.nick_.androidlabs.ListItemsActivity">
 
     <RadioButton
-        android:text="@string/RadioButton"
         android:layout_columnWeight="1"
         android:gravity="fill"
-        />
+        android:text="@string/RadioButton" />
+
     <CheckBox
-        android:text="@string/Checkbox"
+        android:id="@+id/checkBox"
         android:layout_columnWeight="1"
         android:gravity="fill"
-        />
+        android:text="@string/Checkbox" />
+
     <Switch
-        android:text="@string/Switch"
+        android:id="@+id/switchB"
         android:layout_columnWeight="1"
         android:gravity="fill"
-        />
+        android:text="@string/Switch" />
+
     <ImageButton
-        android:src="@android:drawable/ic_menu_camera"
+        android:id="@+id/iButton"
         android:layout_columnWeight="1"
         android:gravity="fill"
-        />
+        android:src="@android:drawable/ic_menu_camera" />
+
 
 </GridLayout>
