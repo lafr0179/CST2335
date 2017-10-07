@@ -59,6 +59,7 @@ public class ListItemsActivity extends Activity {
 
         checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
+
             public void onCheckedChanged(CompoundButton cb, boolean isChecked) {
                 if (isChecked) {
 AlertDialog.Builder builder = new AlertDialog.Builder(ListItemsActivity.this);
@@ -69,6 +70,9 @@ AlertDialog.Builder builder = new AlertDialog.Builder(ListItemsActivity.this);
                                     resultIntent.putExtra("Response", "Here is my response");
                                     setResult(Activity.RESULT_OK, resultIntent);
                                     finish();
+                                    Toast toast = Toast.makeText(getApplicationContext(), "Exit successfull", Toast.LENGTH_LONG);
+                                    toast.show();
+
                                 }
                             }).setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener(){
                         public void onClick(DialogInterface dialog, int id){

@@ -28,7 +28,9 @@ public class LoginActivity extends Activity {
 
         loginButton = (Button) findViewById(R.id.loginButton);
         login_text = (EditText) findViewById(R.id.loginText);
+
         sp = getSharedPreferences(PREFERENCES, 0);
+
         if(sp != null){
             String loadUsername = sp.getString(USERNAME, "DEFAULT");
             if(loadUsername != null && !loadUsername.isEmpty()){
